@@ -1,0 +1,42 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background-color: #796464;
+	
+}
+.converter-body{
+	width: 400px;
+	height: 150px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 5px 10px 5px 20px;
+	box-shadow: 5px 5px 10px 10px #cacaca;
+}
+.converter-title{
+	text-align: center;
+	margin: 13px 0px;
+	font-size: 40px;
+}
+input{
+	height: 25px;
+	text-align: center;
+	border: 1px solid black;
+	
+}
+#input{
+	margin-left: 25px;
+	
+}
+#inputType,#resultType{
+	width: 168.66px;
+	margin-left: 25px;
+	color: red;
+	border: 1px solid black;
+	
+}
+#resultType{
+	margin-left: 18.5px;
+	
+}
